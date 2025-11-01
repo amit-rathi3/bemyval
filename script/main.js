@@ -296,6 +296,8 @@ const fetchData = () => {
 
 // Run fetch and animation in sequence
 const resolveFetch = () => {
+  console.log("Fetching data...");
+  
   return new Promise((resolve, reject) => {
     fetchData();
     resolve("Fetch done!");
