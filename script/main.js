@@ -262,7 +262,7 @@ const animationTimeline = () => {
       {
         rotation: 90,
       },
-      "+=5"
+      "+=1"
     );
 
   // tl.seek("currentStep");
